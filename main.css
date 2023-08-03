@@ -1,0 +1,281 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: blueviolet;
+}
+h1 {
+  text-align: center;
+  margin: 100px auto 50px;
+  color: #fff;
+}
+form {
+  align-items: center;
+  background: #adb4fa;
+  width: 90%;
+  max-width: 500px;
+  height: 60px;
+  margin: auto;
+  display: flex;
+  border-radius: 8px;
+}
+form input {
+  flex: 1;
+  height: 100%;
+  outline: 0;
+  border: 0;
+  background: transparent;
+  padding: 0px 35px;
+  color: #fff;
+  font-size: 18px;
+}
+form button {
+  height: 100%;
+  background: teal;
+  outline: 0;
+  border: 0;
+  padding: 0 20px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+form button:hover {
+  background: #ff3929;
+  box-shadow: 0 0 0 0.1;
+  color: #fff;
+}
+::placeholder {
+  color: #fff;
+}
+#more-image {
+  padding: 10px 20px;
+  outline: 0;
+  border: 0;
+  background: #ff3929;
+  color: #fff;
+  margin: 10px auto 100px;
+  cursor: pointer;
+  display: none;
+  font-size: 18px;
+  border-radius: 4px;
+}
+#img-btn {
+  background: teal;
+  padding: 10px 20px;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  margin: 10px auto 100px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+  transition: 0.3s ease;
+}
+#img-btn:hover {
+  background: #ff3929;
+  color: #fff;
+  box-shadow: 0 0 0 0.1;
+}
+#show-more {
+  text-align: center;
+  width: 80%;
+  padding: 100px 50px 50px 50px;
+  margin-left: 120px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+#show-more img {
+  text-align: center;
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+body {
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+}
+.move {
+  margin-left: 30px;
+}
+.name {
+  padding: 0 50px;
+  font-size: 20px;
+  color: #fefae0;
+  cursor: pointer;
+  background: teal;
+  border-radius: 5rem;
+  padding: 8px 7px;
+  text-align: center;
+}
+
+.nav-link ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.nav-link li {
+  list-style-type: none;
+  margin-right: 40px;
+}
+.nav-link li a {
+  text-decoration: none;
+  padding: 1rem;
+  display: block;
+  color: #fff;
+  font-size: 18px;
+}
+.nav-link li :hover {
+  background-color: #555;
+}
+/* Button sytles are here and follow them here to know more about putting of button 
+or amburger menu */
+.toggle-button {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: none;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 30px;
+  height: 21px;
+}
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #fff;
+}
+@media screen and (max-width: 770px) {
+  .toggle-button {
+    display: flex;
+  }
+  .name {
+    font-size: 30px;
+  }
+  .nav-link {
+    display: none;
+    width: 100%;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    scroll-behavior: none;
+  }
+  .nav-link ul {
+    flex-direction: column;
+    width: 100%;
+  }
+  .nav-link li {
+    text-align: center;
+    margin-left: 17.5rem;
+  }
+  .nav-link li a {
+    padding: 0.75rem 1rem;
+  }
+  .nav-link.active {
+    display: flex;
+  }
+}
+.content {
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 90%;
+  min-width: 550px;
+  box-sizing: border-box;
+  background-color: blueviolet;
+  border-radius: 5px;
+}
+.content:hover {
+  box-shadow: 6px 7px rgba(0, 0, 0 0.2);
+}
+.content p {
+  color: #fff;
+  font-size: 30px;
+  font-family: "poppins" sans-serif;
+}
+@media screen and (max-width: 550px) {
+  .content {
+    margin-left: 25px;
+    width: 60%;
+    min-width: 500px;
+  }
+
+  .content p {
+    font-size: 15px;
+    width: 50%;
+  }
+  h1 {
+    margin: 80px auto 30px;
+    font-size: 15px;
+  }
+  #form-search {
+    margin-right: 90px;
+  }
+  form {
+    width: 60%;
+    max-width: 400px;
+    height: 40px;
+  }
+  form input {
+    height: 100%;
+    padding: 0px 10px;
+    font-size: 10px;
+  }
+  form button {
+    height: 100%;
+    padding: 0 10px;
+    font-size: 10px;
+  }
+  .move {
+    margin-top: 10px;
+  }
+  .name {
+    font-size: 10px;
+  }
+  .navbar {
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #form-search {
+    margin-right: 120px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #form-search {
+    margin-right: 60px;
+  }
+
+  .content p {
+    font-size: 15px;
+    width: 50%;
+  }
+  .navbar {
+    width: 100%;
+  }
+}

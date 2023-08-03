@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'popins' sans-serif;
+    box-sizing: border-box;
+}
+#container{
+    text-align: center;
+    margin: 20px auto 40px;
+    padding: 100px;
+    background: rgb(167, 212, 230);
+
+}
+#container ul{
+    padding: 50px;
+}
+#container ul li{
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 5px;
+    list-style: none;
+    text-align: flex-start;
+
+}
+.take{
+    background: #ebc7c4;
+}
